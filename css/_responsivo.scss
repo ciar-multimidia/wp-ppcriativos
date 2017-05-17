@@ -1,0 +1,62 @@
+
+
+@media (max-width: 640px) {
+	div#noticias > div div.ultimasnoticias div.noticia,
+	div#sobre div.bloco1,
+	div#sobre div.bloco2 {
+		width: 100%;
+	}
+	
+	// div#equipe div.cont-equipes {
+	// 	justify-content: space-between;
+
+	// 	& > div {
+	// 	    width: calc(50% - 60px);
+	// 	    min-height: 100px;
+	// 	    margin: 20px 15px;
+	// 	}
+	// }
+
+	footer#contato > div.flexbox {
+		// flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+
+		div {
+			text-align: center;
+			margin: 20px 30px;
+		}
+	}
+}
+
+
+@media (max-width: 472px) {
+	div#sobre .info-pontual .pontuais {
+	    flex-direction: column;
+
+		& > div {
+			width: 100%;
+			margin: 20px 0;
+		}
+	}
+
+
+	// div#equipe div.cont-equipes > div {
+	// 	width: 100%;
+	// }
+
+	footer#contato > div.flexbox {
+		div {
+			text-align: center;
+			margin: 20px 0;
+		}
+		div.realizacao > div.flexbox {
+			flex-direction: column;
+
+			a {
+				margin: 0;
+			}
+		}
+	}	
+
+}

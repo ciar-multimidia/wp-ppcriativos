@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+/*painel*/
+/*.painel-opcoes-tema h1 {background: url(http://i.imgur.com/T0rPp3p.png) no-repeat left top; background-size: 40px 40px; padding: 0 0 0 55px;color: #000; width: 100%; height: 40px; margin: 30px 0 0; line-height: 40px;}*/
+
+.painel-opcoes-tema {width: 97%; overflow: hidden;}
+
+.painel-opcoes-tema .updated {margin: 20px 0;}
+.painel-opcoes-tema .painel {margin: 50px 0 0;}
+.painel-opcoes-tema .formulario-opcoes {width: 100%;}
+
+.painel-opcoes-tema .formulario-opcoes .form-table {margin: 0 0 50px 0; background: #fff; padding: 10px}
+.painel-opcoes-tema .formulario-opcoes .tabbertab .form-table {margin: 0}
+.painel-opcoes-tema .formulario-opcoes .form-table, .painel-opcoes-tema .formulario-opcoes  .form-table td, .painel-opcoes-tema .formulario-opcoes  .form-table td p, .painel-opcoes-tema .formulario-opcoes  .form-table th, .form-wrap label {font-size: 12px}
+.painel-opcoes-tema .formulario-opcoes .form-table td {margin-bottom: 9px;padding: 14px 20px ;line-height: 1.3;vertical-align: middle;}
+.painel-opcoes-tema .formulario-opcoes .form-table tr.titulo {padding: 0 !important}
+.painel-opcoes-tema .formulario-opcoes .form-table tr.titulo td {padding: 3px 4px}
+.painel-opcoes-tema .formulario-opcoes .form-table tr th:first-child {width: 135px; vertical-align: top;}
+.painel-opcoes-tema .formulario-opcoes .form-table tr td input[type=text], 
+.painel-opcoes-tema .formulario-opcoes .form-table tr td select{width: 300px; margin: 0 0 3px 0}
+.painel-opcoes-tema .formulario-opcoes .form-table h3 {background: #444; padding: 8px 10px; margin: 0; color: #fff}
+.painel-opcoes-tema .formulario-opcoes .form-table h3.show-inside-tabber {display: block; background: #eee; padding: 8px 16px; margin: 0; color: #000}
+.painel-opcoes-tema .formulario-opcoes .form-table tr th {margin-top: 0 !important; padding: 14px 20px; font-size: 1.2em; vertical-align: top;}
+.painel-opcoes-tema .formulario-opcoes .form-table tr th small {font-weight: normal;}
+
+.painel-opcoes-tema .color-area {position: relative;}
+.painel-opcoes-tema .picker {padding: 0!important; width: 100%;}
+.painel-opcoes-tema .formulario-opcoes .picker tr td {padding: 3px; margin: 0!important}
+
+.painel-opcoes-tema .colorwell { width: 100px !important; text-align: center; cursor: pointer;}
+.painel-opcoes-tema .colorwell-selected {font-weight: bold;}
+
+.painel-opcoes-tema .farbtastic, .painel-opcoes-tema .farbtastic .wheel {margin: 0 auto}
+
+.painel-opcoes-tema .notice, .painel-opcoes-tema div.error, .painel-opcoes-tema div.updated {margin: 0}
+
+.painel-opcoes-tema h4 {font-size: 1.1em;}
+
+.mostra-estrutura tr, .mostra-estrutura tr td {text-align: center; padding: 3px 6px !important; margin: 0 !important; font-size: 9px}
+.mostra-estrutura tr td img {padding: 5px; border-radius: 3px; border: 1px solid #eee;}
+
